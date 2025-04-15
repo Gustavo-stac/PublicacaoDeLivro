@@ -6,10 +6,16 @@ public class Pessoa {
 
     //Metodos
     public void fazerAniver(){
-
+        this.idade++;
     }
 
     //Metodos especiais
+    public Pessoa(String no, int id, String se){
+        this.setNome(no);
+        this.setIdade(id);
+        this.setSexo(se);
+    }
+
     public String getNome() {
         return nome;
     }
